@@ -3,11 +3,11 @@ if (navigator.serviceWorker) {
 }
 
 const isOnline = () => {
-    if (navigator.onLine) {
-        alert('¡Estás en línea!');
-    } else {
-        alert('¡Estás fuera de línea!');
-    }
+    // if (navigator.onLine) {
+    //     alert('¡Estás en línea!');
+    // } else {
+    //     alert('¡Estás fuera de línea!');
+    // }
 }
 
 window.addEventListener('online', isOnline);
